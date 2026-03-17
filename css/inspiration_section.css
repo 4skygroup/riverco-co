@@ -12,8 +12,14 @@ body p {
   color: white;
 }
 
-.w-element.cxvuy4s.c2w449n.crmbe4c.cecob1e.c161a4w7 h3:first-of-type {
-  /* color: black; */
+.w-element.cxvuy4s.c2w449n.crmbe4c.cecob1e.c161a4w7 {
+  column-gap: 0;
+}
+
+.w-element.cxvuy4s.c2w449n.crmbe4c.cecob1e.c161a4w7 h3,
+.w-element.cmsh1wz.c7v34cj.cm656wh.cddnmfv.cxvuy4s.c1pldjkd.c17g4s8m.c1gnsvz9.cecob1e.c161a4w7.c13isxdn.c1pcweb5.difference
+  * {
+  font-family: "Glacial Indifference";
 }
 
 p.w-element.cof7ble.c78ag29.c16cg51a.c1yancc2.cm656wh.cddnmfv.c149suav.c110f97k.c12ezvdd.c1a9zv23 {
@@ -1020,8 +1026,12 @@ p.w-element.cof7ble.c78ag29.c16cg51a.c1yancc2.cm656wh.cddnmfv.c149suav.c110f97k.
   .c20fo5u:hover {
     border-left-color: var(--black);
   }
+  .c12brtd5 {
+    outline: white solid 1px;
+  }
   .c12brtd5:hover {
-    color: var(--black);
+    color: white;
+    background-color: red;
   }
   .c61ir79:hover {
     border-top-style: solid;

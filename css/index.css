@@ -109,3 +109,24 @@ html body * {
   font-family: "Glacial Indifference";
   /* line-height: 0; */
 }
+
+/* ----------------------- */
+.w-element.ceu7tus.cbhvyt1.cz0yzym.cwu49w4.crmbe4c.c2w449n.cnoahmk.cj82qg4.c6u9l1h.csjb01i.c158qsfa
+  > * {
+  background-color: red;
+}
+
+.expertise-card img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+section.section_a-propos {
+  background-color: white;
+}
+
+section.section_a-propos h2 {
+  color: rgb(243, 164, 46);
+  font-weight: 700;
+}
