@@ -1,9 +1,82 @@
 /* .text-color {
 } */
+@font-face {
+  font-family: "Glacial Indifference";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/GlacialIndifference-Bold.otf);
+}
+
+:root {
+  --orange: rgb(247, 179, 78);
+}
+
+img.hero-illustration {
+  border-radius: 20px;
+  /* opacity: 0.8; */
+}
+
+p.footer-tag,
+p.key-number {
+  /* color: var(--orange); */
+  color: rgb(247, 179, 78);
+}
+
+div.container-large.is-large,
+div.container-large.is-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a.button.is-secondary.is-color-tertiary {
+  color: white;
+  border-color: white;
+}
+
+a.button
+/* div.btn-txt-container:first-child  */ {
+  background-color: rgb(247, 179, 78);
+}
+
+div.container-large.is-footer {
+  padding-bottom: 0;
+}
+
+div.footer-component {
+  background: unset;
+}
 
 div.hero_component,
 div.footer-component {
   background-color: red;
+  border-radius: 0;
+}
+
+div.footer-card-cta {
+  background-color: rgb(243, 164, 46);
+}
+
+@media screen and (max-width: 767px) {
+  img.logo {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img.logo {
+    width: 150px;
+    height: 30px;
+  }
 }
 
 img.logo {
@@ -12,6 +85,27 @@ img.logo {
   max-width: 200px;
 }
 
-html body {
+@media screen and (max-width: 767px) {
+  img.logo-footer {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  img.logo-footer {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+img.logo-footer {
+  object-fit: cover;
+  object-position: center;
+  max-width: 300px;
+}
+
+html body * {
+  font-family: "Glacial Indifference";
   /* line-height: 0; */
 }
