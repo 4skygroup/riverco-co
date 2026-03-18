@@ -42,7 +42,7 @@ a.button.is-secondary.is-color-tertiary {
   border-color: white;
 }
 
-a.button
+a.button, a.button:hover:first-of-type:not(.is-text)
 /* div.btn-txt-container:first-child  */ {
   background-color: rgb(247, 179, 78);
 }
@@ -105,9 +105,50 @@ img.logo-footer {
   max-width: 300px;
 }
 
-html body * {
+html body *,
+p.methode-label,
+p.methode-txt-card,
+p.methode-card-title {
   font-family: "Glacial Indifference";
   /* line-height: 0; */
+}
+
+.title-container {
+  margin-bottom: 50px;
+}
+
+.section_expertise .padding-global.padding-section-large.small-space-bottom {
+  padding-top: 0;
+}
+
+.section_methode {
+  padding-top: 150px;
+}
+
+div.faq_component {
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  row-gap: 60px;
+  padding: 50px 0;
+  border: white 1px solid;
+}
+
+div.faq_component-question:hover {
+  background-color: rgb(247, 179, 78);
+}
+div.faq_component-question:hover p {
+  color: black;
+}
+
+div.arrow-faq-line-1,
+div.arrow-faq-line-2 {
+  background-color: rgb(247, 179, 78);
+}
+
+div.faq_component-question:hover div.arrow-faq-line-1,
+div.faq_component-question:hover div.arrow-faq-line-2 {
+  background-color: black;
 }
 
 /* ----------------------- */
@@ -116,7 +157,33 @@ html body * {
   background-color: red;
 }
 
-.expertise-card img {
+div.methode-card.is-1 {
+  background: unset;
+  background-color: red;
+}
+
+div.methode-card.is-2 {
+  background: unset;
+  background-color: rgb(243, 164, 46);
+}
+
+div.methode-card.is-3 {
+  background: unset;
+  background-color: rgb(185, 185, 185);
+}
+
+div.methode-card.is-4 {
+  background: unset;
+  background-color: black;
+  border: 1px solid white;
+}
+
+div.methode-card.is-4 .btn-txt {
+  color: white;
+  text-decoration: underline;
+}
+
+div.methode-card.is-4 .btn-txt .expertise-card img {
   aspect-ratio: 1;
   object-fit: cover;
   margin-right: 20px;
