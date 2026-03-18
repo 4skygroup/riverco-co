@@ -1457,7 +1457,7 @@ a,
             </div>
           </div>
         </section> -->
-        <!-- <div class="section_cas-client">
+        <section class="section_cas-client">
           <div class="container-large is-large">
             <div class="cas-client_component">
               <div class="avis-tilte-container home">
@@ -1467,22 +1467,7 @@ a,
                 </h2>
               </div>
               <div class="avis-slider-container">
-                <div
-                  data-delay="4000"
-                  data-animation="slide"
-                  class="slider w-slider"
-                  data-autoplay="false"
-                  fs-list-element="slider"
-                  data-easing="ease"
-                  data-hide-arrows="false"
-                  data-disable-swipe="false"
-                  data-autoplay-limit="0"
-                  data-nav-spacing="3"
-                  data-duration="500"
-                  data-infinite="true"
-                  role="region"
-                  aria-label="carousel"
-                >
+                <div class="slider w-slider">
                   <div class="hide w-embed">
                     <style>
                       .w-slider-dot {
@@ -2139,7 +2124,16 @@ a,
               </div>
             </div>
           </div>
-        </div> -->
+        </section>
+        
+</div>
+
+<style>
+  /* Force l'affichage si Webflow ne l'initialise pas direct */
+  .slider.w-slider { opacity: 1 !important; display: block !important; }
+  .avis-card { min-height: 300px; background: #1a1a1a; padding: 20px; border-radius: 12px; }
+  .w-slider-mask { overflow: visible !important; } /* Utile si tes cartes dépassent */
+</style>
         <section id="about" class="section_a-propos">
           <div class="padding-global padding-section-large small-space-bottom">
             <div class="container-large">
@@ -2699,7 +2693,7 @@ a,
                     >
                   </div>
                 </div>
-                <div class="footer-links-container-column">
+                <!-- <div class="footer-links-container-column">
                   <p class="footer-tag">NOTRE&nbsp;EXPERTISE&nbsp;CRM</p>
                   <div class="footer-links-container">
                     <a href="/agence-crm" class="is-link">Agence CRM</a
@@ -2713,7 +2707,7 @@ a,
                       >Automatisation crm</a
                     >
                   </div>
-                </div>
+                </div> -->
                 <div class="footer-links-container-column">
                   <p class="footer-tag">NOS&nbsp;FORMATIONS</p>
                   <div class="footer-links-container">
@@ -2760,7 +2754,7 @@ a,
                 /></a>
               </div>
               <div class="footer-column-right-second">
-                <div class="footer-card-cta">
+                <!-- <div class="footer-card-cta">
                   <p class="footer-title-card">
                     Structurez, automatisez, vendez.
                   </p>
@@ -2797,7 +2791,7 @@ a,
                       </div>
                     </div></a
                   >
-                </div>
+                </div> -->
                 <div class="footer-nav">
                   <p class="text-color-white text-size-regular">
                     ©2026 Riverco
