@@ -17,7 +17,7 @@
 }
 
 :root {
-  --orange: rgb(247, 179, 78);
+  --orange: red;
 }
 
 img.hero-illustration {
@@ -28,7 +28,7 @@ img.hero-illustration {
 p.footer-tag,
 p.key-number {
   /* color: var(--orange); */
-  color: rgb(247, 179, 78);
+  color: red;
 }
 
 div.container-large.is-large,
@@ -44,7 +44,7 @@ a.button.is-secondary.is-color-tertiary {
 
 a.button, a.button:hover:first-of-type:not(.is-text)
 /* div.btn-txt-container:first-child  */ {
-  background-color: rgb(247, 179, 78);
+  background-color: red;
 }
 
 div.container-large.is-footer {
@@ -62,7 +62,7 @@ div.footer-component {
 }
 
 div.footer-card-cta {
-  background-color: rgb(243, 164, 46);
+  background-color: red;
 }
 
 @media screen and (max-width: 767px) {
@@ -135,7 +135,7 @@ div.faq_component {
 }
 
 div.faq_component-question:hover {
-  background-color: rgb(247, 179, 78);
+  background-color: red;
 }
 div.faq_component-question:hover p {
   color: black;
@@ -143,7 +143,7 @@ div.faq_component-question:hover p {
 
 div.arrow-faq-line-1,
 div.arrow-faq-line-2 {
-  background-color: rgb(247, 179, 78);
+  background-color: red;
 }
 
 div.faq_component-question:hover div.arrow-faq-line-1,
@@ -164,7 +164,7 @@ div.methode-card.is-1 {
 
 div.methode-card.is-2 {
   background: unset;
-  background-color: rgb(243, 164, 46);
+  background-color: red;
 }
 
 div.methode-card.is-3 {
@@ -194,6 +194,45 @@ section.section_a-propos {
 }
 
 section.section_a-propos h2 {
-  color: rgb(243, 164, 46);
+  color: red;
   font-weight: 700;
+}
+
+.section_cta .cat_component {
+  background-image: url(../img/accélération.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+div.cas-client_component {
+  background: unset;
+  background-color: red;
+  border-radius: 0px;
+}
+
+.mask-avis.w-slider-mask p {
+  font-family: "Glacial Indifference";
+}
+
+.avis-txt + p {
+  color: white;
+}
+
+p.avis-tag {
+  border-radius: 5px;
+}
+
+p.avis-tag.is-1,
+p.avis-tag.is-2 {
+  background-color: red;
+  color: white;
+}
+
+.footer-line:first-of-type {
+  justify-content: space-around;
+}
+
+.footer-nav a.is-link {
 }
