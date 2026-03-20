@@ -20,6 +20,20 @@
   --orange: red;
 }
 
+html body {
+  background-color: #000;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  color: white;
+}
+
 img.hero-illustration {
   border-radius: 20px;
   /* opacity: 0.8; */
@@ -45,6 +59,14 @@ a.button.is-secondary.is-color-tertiary {
 a.button, a.button:hover:first-of-type:not(.is-text)
 /* div.btn-txt-container:first-child  */ {
   background-color: red;
+}
+
+a.button:first-of-type:not(.is-text) {
+  border: 1px solid white;
+}
+
+.cat_component a.button:first-of-type:not(.is-text) {
+  border: none;
 }
 
 div.container-large.is-footer {
@@ -136,9 +158,6 @@ div.faq_component {
 
 div.faq_component-question:hover {
   background-color: red;
-}
-div.faq_component-question:hover p {
-  color: black;
 }
 
 div.arrow-faq-line-1,
